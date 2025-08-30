@@ -1,9 +1,9 @@
 .star {
   width: 0;
   height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 50px solid yellow;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid yellow;
   position: relative;
   margin: 10px auto;
 }
@@ -11,12 +11,12 @@
 .star::after {
   content: '';
   position: absolute;
-  top: 15px;
-  left: -20px;
+  top: 30px;
+  left: -50px;
   width: 0;
   height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 50px solid yellow;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid yellow;
   transform: rotate(180deg);
 }
